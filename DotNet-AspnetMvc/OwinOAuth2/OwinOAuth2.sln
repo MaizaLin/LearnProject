@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinOAuth2", "OwinOAuth2\Ow
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinHosst", "OwinHosst\OwinHosst.csproj", "{B936FA9D-EA19-4397-8DED-AEB2EEF2C9E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreOAuth", "CoreOAuth\CoreOAuth.csproj", "{92BCDD8C-1867-40C7-9C72-6FA2714A432B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B936FA9D-EA19-4397-8DED-AEB2EEF2C9E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B936FA9D-EA19-4397-8DED-AEB2EEF2C9E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B936FA9D-EA19-4397-8DED-AEB2EEF2C9E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BCDD8C-1867-40C7-9C72-6FA2714A432B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BCDD8C-1867-40C7-9C72-6FA2714A432B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BCDD8C-1867-40C7-9C72-6FA2714A432B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BCDD8C-1867-40C7-9C72-6FA2714A432B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

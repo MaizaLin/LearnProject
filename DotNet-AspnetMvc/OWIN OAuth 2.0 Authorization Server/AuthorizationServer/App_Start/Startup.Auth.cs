@@ -28,18 +28,18 @@ namespace AuthorizationServer
                 LogoutPath = new PathString(Paths.LogoutPath),
             });
 
-            // Enable External Sign In Cookie
-            app.SetDefaultSignInAsAuthenticationType("External");
-            app.UseCookieAuthentication(new CookieAuthenticationOptions
-            {
-                AuthenticationType = "External",
-                AuthenticationMode = AuthenticationMode.Passive,
-                CookieName = CookieAuthenticationDefaults.CookiePrefix + "External",
-                ExpireTimeSpan = TimeSpan.FromMinutes(5),
-            });
+            //// Enable External Sign In Cookie
+            //app.SetDefaultSignInAsAuthenticationType("External");
+            //app.UseCookieAuthentication(new CookieAuthenticationOptions
+            //{
+            //    AuthenticationType = "External",
+            //    AuthenticationMode = AuthenticationMode.Passive,
+            //    CookieName = CookieAuthenticationDefaults.CookiePrefix + "External",
+            //    ExpireTimeSpan = TimeSpan.FromMinutes(5),
+            //});
 
-            // Enable google authentication
-            app.UseGoogleAuthentication();
+            //// Enable google authentication
+            //app.UseGoogleAuthentication();
 
             // Setup Authorization Server
             app.UseOAuthAuthorizationServer(new OAuthAuthorizationServerOptions
